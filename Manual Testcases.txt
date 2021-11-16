@@ -1,0 +1,11 @@
+1) Verify that the placeholder "Search all products" is present.
+2) Enter keyword matching a category or a products
+3) Enter alphanumeric/special character keyword mathcing a category or products
+4) Click on the search icon without entering any text.
+5) Enter an empty string or space and click search.
+6) Enter just * or % sign an click search.
+7) Enter keyword with length more than the limit of the search box.
+8) Empty string before and after keyword should be trimmed.
+9) Verify the search keyword persists even after refersing the page
+10) Verify that navigating to "https://www.officemate.co.th/en/search" should not result in undefined getting appeared in search box.
+11) Verify that the item/page is limited to maximum 150 and can't be overridden by change the url parameter to avoid freezing of page. https://www.officemate.co.th/en/search/a?ofm_limit=1500
